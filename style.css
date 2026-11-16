@@ -1,0 +1,57 @@
+body{
+font-family:Arial;
+background:#f2f2f2;
+}
+
+.menu{
+width:200px;
+background:red;
+height:100vh;
+float:left;
+padding:20px;
+}
+
+.menu a{
+display:block;
+background:white;
+margin:10px;
+padding:10px;
+text-decoration:none;
+}
+
+.content{
+margin-left:220px;
+padding:20px;
+}
+
+.blood{
+font-size:30px;
+color:red;
+}
+
+.btn{
+display:inline-block;
+background:red;
+color:white;
+padding:10px;
+margin:10px;
+text-decoration:none;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
