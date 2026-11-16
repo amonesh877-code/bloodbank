@@ -1,9 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost","root","","bloodbank");
-
-if(!$conn){
-    die("Connection Failed");
-}
+require_once __DIR__ . '/connect.php';
 
 if(isset($_POST['login']))
 {

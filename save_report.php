@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost","root","","bloodbank");
+require_once __DIR__ . '/connect.php';
 
 $name = $_GET['name'];
 $blood = $_GET['blood'];

@@ -1,9 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "bloodbank");
-
-if(!$conn){
-    die("Connection failed");
-}
+require_once __DIR__ . '/connect.php';
 
 $id = $_GET['id'];
 $type = $_GET['type'];

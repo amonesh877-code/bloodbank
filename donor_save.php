@@ -1,10 +1,5 @@
 <?php
-
-$conn = mysqli_connect("localhost","root","","bloodbank");
-
-if(!$conn){
-die("Database connection failed");
-}
+require_once __DIR__ . '/connect.php';
 
 $name = $_POST['name'];
 $age = $_POST['age'];

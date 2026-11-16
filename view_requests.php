@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "bloodbank");
+require_once __DIR__ . '/connect.php';
 
 $result = mysqli_query($conn, "SELECT * FROM emergency_requests");
 ?>
