@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/connect.php';
+$conn = mysqli_connect("localhost", "root", "", "bloodbank");
 
 if(isset($_POST['submit'])) {
     $name = $_POST['name'];
